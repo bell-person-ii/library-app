@@ -9,11 +9,11 @@ import java.util.List;
 
 @Service
 
-public class UserService {
+public class UserServiceV1 {
 
     public final UserJdbcRespository userJdbcRespository;
 
-    public UserService(UserJdbcRespository userJdbcRespository) {
+    public UserServiceV1(UserJdbcRespository userJdbcRespository) {
         this.userJdbcRespository = userJdbcRespository;
     }
 
