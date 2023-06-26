@@ -6,10 +6,10 @@ import com.group.libraryapp.repository.user.UserJdbcRespository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+/*
 @Service
 
-public class UserServiceV1 {
+public class UserServiceV2 {
 
     public final UserJdbcRespository userJdbcRespository;
 
@@ -39,3 +39,4 @@ public class UserServiceV1 {
         return userJdbcRespository.getUsers();
     }
 }
+*/
